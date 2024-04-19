@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Where To Buy</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <button id="pop-map">Pop Map</button>
+        <div id="mapModal" class="modal">
+            <div class="modal-content">
+                <iframe id="map-iframe" src></iframe>
+                <div class="search-bar">
+                    <input type="text" id="search-input"
+                        placeholder="Search for branch">
+                </div>
+                <div class="table-container">
+                    <table id="shop-table">
+                        <!-- <thead>
+                            <tr>
+                                <th>SEI Branch</th>
+                                <th>Location</th>
+                                <th>Contact</th>
+                            </tr>
+                        </thead> -->
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="function/script.js">
+        </script>
+    </html>
